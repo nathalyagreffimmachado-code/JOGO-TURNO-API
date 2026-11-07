@@ -1,0 +1,30 @@
+{
+  "name": "aulas-node-backend",
+  "version": "0.0.1",
+  "description": "qualquer coisa",
+  "homepage": "https://github.com/nathalyagreffimmachado-code/-aulas-node-backend#readme",
+  "bugs": {
+    "url": "https://github.com/nathalyagreffimmachado-code/-aulas-node-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathalyagreffimmachado-code/-aulas-node-backend.git"
+  },
+  "license": "ISC",
+  "author": "Nathalya Greffim",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "axios": "^1.21.0",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mysql2": "^3.24.3",
+    "sequelize": "^6.37.8"
+  }
+}
